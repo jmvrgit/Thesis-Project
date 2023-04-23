@@ -262,3 +262,79 @@
 1682241868: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
 1682241868: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
 1682241868: Error: No such file or directory.
+1682243669: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682243669: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682243669: Error: No such file or directory.
+1682245470: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682245470: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682245470: Error: No such file or directory.
+1682247271: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682247271: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682247271: Error: No such file or directory.
+1682249072: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682249072: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682249072: Error: No such file or directory.
+1682250873: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682250873: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682250873: Error: No such file or directory.
+1682252674: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682252674: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682252674: Error: No such file or directory.
+1682254475: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682254475: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682254475: Error: No such file or directory.
+1682256276: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682256276: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682256276: Error: No such file or directory.
+1682258077: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682258077: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682258077: Error: No such file or directory.
+1682259878: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682259878: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682259878: Error: No such file or directory.
+1682261679: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682261679: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682261679: Error: No such file or directory.
+1682262094: New connection from 172.18.0.1:51064 on port 1883.
+1682262094: New client connected from 172.18.0.1:51064 as ESP8266Client-375 (p2, c1, k15).
+1682262131: Client ESP8266Client-375 has exceeded timeout, disconnecting.
+1682262695: New connection from 172.18.0.1:51306 on port 1883.
+1682262695: New client connected from 172.18.0.1:51306 as ESP8266Client-2bc7 (p2, c1, k15).
+1682262816: New connection from 172.18.0.1:51360 on port 1883.
+1682262816: New client connected from 172.18.0.1:51360 as ESP8266Client-c4f2 (p2, c1, k15).
+1682262819: Client ESP8266Client-2bc7 closed its connection.
+1682262856: New connection from 172.18.0.1:51380 on port 1883.
+1682262856: New client connected from 172.18.0.1:51380 as ESP8266Client-8792 (p2, c1, k15).
+1682262860: Client ESP8266Client-c4f2 closed its connection.
+1682263480: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682263480: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682263480: Error: No such file or directory.
+1682264013: New connection from 172.18.0.1:51862 on port 1883.
+1682264013: New client connected from 172.18.0.1:51862 as ESP8266Client-ffb3 (p2, c1, k15).
+1682264016: Client ESP8266Client-8792 closed its connection.
+1682264508: New connection from 172.18.0.1:52062 on port 1883.
+1682264508: New client connected from 172.18.0.1:52062 as ESP8266Client-b5a3 (p2, c1, k15).
+1682264513: Client ESP8266Client-ffb3 has exceeded timeout, disconnecting.
+1682264657: Client ESP8266Client-b5a3 has exceeded timeout, disconnecting.
+1682265281: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682265281: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682265281: Error: No such file or directory.
+1682266080: New connection from 172.18.0.1:52696 on port 1883.
+1682266080: New client connected from 172.18.0.1:52696 as ESP8266Client-7695 (p2, c1, k15).
+1682266103: Client ESP8266Client-7695 has exceeded timeout, disconnecting.
+1682267082: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682267082: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682267082: Error: No such file or directory.
+1682268883: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682268883: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682268883: Error: No such file or directory.
+1682270684: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682270684: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682270684: Error: No such file or directory.
+1682272485: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682272485: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682272485: Error: No such file or directory.
+1682273378: mosquitto version 2.0.15 terminating
+1682273378: Saving in-memory database to /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.
+1682273378: Error saving in-memory database, unable to open /mosquitto/data/ # This line specifies the directory where messages will be saved./mosquitto.db.new for writing.
+1682273378: Error: No such file or directory.
