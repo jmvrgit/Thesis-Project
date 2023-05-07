@@ -251,6 +251,14 @@
           "max": null,
           "pattern": ""
         }
+      },
+      {
+        "id": "qol8xpwy",
+        "name": "isFake",
+        "type": "bool",
+        "system": false,
+        "required": false,
+        "options": {}
       }
     ],
     "indexes": [],
