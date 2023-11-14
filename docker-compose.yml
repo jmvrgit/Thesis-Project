@@ -12,13 +12,17 @@ services:
     ports:
       - 1883:1883
       - 9001:9001
+    networks:
+      - dockernet
 
   app:
-    image: rjonmarco/mqtt-node
+    image: rjonmarco/mqtt-node:0.1
     container_name: mqtt-node
     restart: unless-stopped
     ports:
       - "80:80"
+    networks:
+      - dockernet
 
   pocketbase:
     image: ghcr.io/muchobien/pocketbase:latest
@@ -34,8 +38,15 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-
+    networks:
+      - dockernet
+    
 volumes:
   config:
   data:
   log:
+  pb_data:
+  pb_public:
+
+networks:
+  dockernet:
