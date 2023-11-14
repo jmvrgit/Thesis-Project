@@ -19,6 +19,7 @@ services:
     image: docker.io/rjonmarco/mqtt-node:0.1
     container_name: mqtt-node
     restart: unless-stopped
+    privileged: true
     ports:
       - "8080:80"
     networks:
