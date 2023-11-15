@@ -1,11 +1,17 @@
-echo "installing git podman python 3 pip"
-yum install -y git podman python3 pip
-echo "installing git podman-compose"
+#podman
+sudo yum install -y git podman python3 pip
 pip3 install podman-compose
-echo "pulling project"
-git pull https://github.com/jmvrgit/Thesis-Project.git
-cd Thesis-Project
-echo "Rootless mode for port 80"
-sysctl net.ipv4.ip_unprivileged_port_start=80 #open port for rootless
-echo "Bringing images up"
-podman-compose up
+sudo su; echo "net.ipv4.ip_unprivileged_port_start=80" > /etc/sysctl.d/rootless-80.conf
+git clone https://github.com/jmvrgit/Thesis-Project.git
+cd Thesis-Project; podman-compose up
+
+#Docker
+yum install -y git docker
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo usermod -aG docker $USER
+newgrp docker
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.23.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+sudo chmod 755 /usr/local/bin/docker-compose
+git clone https://github.com/jmvrgit/Thesis-Project.git
+cd Thesis-Project; docker-compose up
