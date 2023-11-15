@@ -41,8 +41,18 @@ services:
       retries: 5
     networks:
       - dockernet
-    
+  grafana:
+    image: docker.io/grafana/grafana
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - dockernet
 volumes:
+  grafana-storage:
   config:
   data:
   log:
