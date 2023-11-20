@@ -26,7 +26,7 @@ services:
       - dockernet
 
   pocketbase:
-    image: ghcr.io/muchobien/pocketbase:latest
+    image: docker.io/rjonmarco/pocketbase-powerdata:v0.1
     container_name: pocketbase
     restart: unless-stopped
     ports:
@@ -41,6 +41,7 @@ services:
       retries: 5
     networks:
       - dockernet
+      
   grafana:
     image: docker.io/grafana/grafana
     container_name: grafana
@@ -48,7 +49,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - grafana-storage:/var/lib/grafana
+      - grafana-storage:/var/lib/grafana:Z
     networks:
       - dockernet
 
@@ -71,8 +72,8 @@ services:
     ports:
       - "8428:8428"
     volumes:
-      - victoriametrics-storage:/victoria-metrics-data
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - victoriametrics-storage:/victoria-metrics-data:Z
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:Z
     command:
       - "--promscrape.config=/etc/prometheus/prometheus.yml"
     networks:
