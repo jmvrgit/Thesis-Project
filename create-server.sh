@@ -27,7 +27,8 @@ sudo chmod 755 /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 #! once installed
+sudo su
 usermod -aG docker ec2-user
 newgrp docker
 git clone https://github.com/jmvrgit/Thesis-Project.git
-cd Thesis-Project; docker-compose up
+cd Thesis-Project; docker-compose up -d
