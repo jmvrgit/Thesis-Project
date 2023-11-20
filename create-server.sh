@@ -30,5 +30,6 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo su
 usermod -aG docker ec2-user
 newgrp docker
+su ec2-user
 git clone https://github.com/jmvrgit/Thesis-Project.git
 cd Thesis-Project; docker-compose up -d
