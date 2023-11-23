@@ -16,7 +16,7 @@ services:
       - dockernet
 
   app:
-    image: docker.io/rjonmarco/mqtt-node:0.2
+    image: docker.io/rjonmarco/mqtt-node:latest
     # image: localhost/mqtt-node:v0.2
     container_name: mqtt-node
     restart: unless-stopped
