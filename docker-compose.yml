@@ -16,8 +16,8 @@ services:
       - dockernet
 
   app:
-    image: docker.io/rjonmarco/mqtt-node:latest
-    # image: localhost/mqtt-node:v0.2
+    # image: docker.io/rjonmarco/mqtt-node:0.1
+    image: localhost/mqtt-node:v0.2
     container_name: mqtt-node
     restart: unless-stopped
     privileged: true
@@ -83,17 +83,17 @@ services:
     networks:
       - dockernet
 
-  mosquitto-exporter:
-    image: sapcc/mosquitto-exporter
-    container_name: mosquitto-exporter
+  mqtt-exporter:
+    image: kpetrem/mqtt-exporter
+    container_name: mqtt-exporter
     ports:
-      - 9234:9234
+      - 9000:9000
+    environment:
+      - MQTT_ADDRESS=mqtt
+      - TOPIC_LABEL=powerdata
+    restart: unless-stopped
     networks:
       - dockernet
-    command:
-      - "--endpoint"
-      - "tcp://mosquitto:1883"
-    restart: unless-stopped
 
 volumes:
   victoriametrics-storage:
