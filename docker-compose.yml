@@ -55,6 +55,8 @@ services:
     environment:
       - GF_SERVER_ROOT_URL=%(protocol)s://%(domain)s:3000/grafana/
       - GF_SERVER_SERVE_FROM_SUB_PATH=true
+      - GF_SERVER_PROTOCOL=http
+      - GF_SERVER_DOMAIN=www.uwuu.us
   
   victoriametrics:
     image: docker.io/victoriametrics/victoria-metrics
