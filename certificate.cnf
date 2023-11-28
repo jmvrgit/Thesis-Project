@@ -1,0 +1,21 @@
+[req]
+default_bits       = 2048
+prompt             = no
+default_md         = sha256
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+
+[req_distinguished_name]
+countryName            = PH
+stateOrProvinceName    = Manila
+localityName           = Valenzuela City
+organizationName       = Technological Institute of the Philippines
+commonName             = buildinggridmonitor.net
+emailAddress           = rjonmarco@gmail.com
+
+[req_ext]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = buildinggridmonitor.net
+DNS.2 = uwuu.us
