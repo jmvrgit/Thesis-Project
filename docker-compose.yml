@@ -76,8 +76,11 @@ services:
     image: docker.io/nginx:latest
     volumes:
      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+     - /path/to/your/certs/fullchain.pem:/etc/nginx/ssl/fullchain.pem
+     - /path/to/your/certs/privkey.pem:/etc/nginx/ssl/privkey.pem
     ports:
      - "80:80"
+     - "443:443"
     environment:
      - NGINX_HOST=buildinggridmonitor.net
      - NGINX_PORT=80
